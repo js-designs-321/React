@@ -4,13 +4,16 @@ import './App.css';
 // import Welcome from './Components/Welcome'; 
 // import JSX from './Components/jsx'
 // import WOJSX from './Components/withoutJSX'
-import Message from './Components/Message';
+// import Message from './Components/Message';
+import Counter from './Components/Counter'
 
 function App() {
   return (
     <div className="App">
       
-      <Message/>
+      <Counter/>
+
+      {/* <Message/> */}
       
       {/* <Greet name="A" profile="Engineer">
         Creates Design
