@@ -1,17 +1,20 @@
 // import logo from './logo.svg';
 import './App.css';
-// import Greet from './Components/Greet';
-// import Welcome from './Components/Welcome'; 
+ import Greet from './Components/Greet';
+ import Welcome from './Components/Welcome'; 
 // import JSX from './Components/jsx'
 // import WOJSX from './Components/withoutJSX'
 // import Message from './Components/Message';
-import Counter from './Components/Counter'
+// import Counter from './Components/Counter'
 
 function App() {
   return (
     <div className="App">
       
-      <Counter/>
+      <Greet name="A" profile="Engineer"> Works Hard </Greet>
+      <Welcome name = "X" skill="Batting"></Welcome>
+
+      {/* <Counter/> */}
 
       {/* <Message/> */}
       
@@ -23,7 +26,7 @@ function App() {
       </Greet>
       <Greet name="C" profile="Manager"/>
       
-      <Welcome name = "X" skill="Batting"></Welcome>
+      
       <Welcome name = "Y" skill="Bowling"></Welcome>
       <Welcome name = "Z" skill="Fielding"></Welcome>
       
